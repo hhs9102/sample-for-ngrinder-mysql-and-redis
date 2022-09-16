@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: admin
+    password: gkaghtlr
+    url: jdbc:mysql://3.35.90.249:3306/ngrinder
+  redis:
+    lettuce:
+      pool:
+        enabled: true
+    host: ec2-13-125-56-39.ap-northeast-2.compute.amazonaws.com
+    password: gkaghtlr
